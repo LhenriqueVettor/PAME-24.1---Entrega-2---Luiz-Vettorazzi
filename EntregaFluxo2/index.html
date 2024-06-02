@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head> 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
             <header class="headline">
                 <img class ="LogoFluxoTitulo" src="logoFluxo.png" alt="LogoFluxo">
                 <b class="LegendaTitulo"> FluxoSocial</b>
-                <b class="LegendaTitulo2" style="color: #F1812d;" >It's happening now!</p></b>
+                <b class="LegendaTitulo2" >It's happening now!</p></b>
 
                 </header> 
         <!-- Area da chamada 'Faca login'    -->
@@ -20,46 +20,53 @@
                <b> Faça seu login! </b> <br><img class = 'capa'  src="Pré-Capa.png">
             </p1>
         </div>
+        
         <!-- Area onde ficam as entradas de email e senha: necessistam embelezamento -->
-        <div class="AreaLogin">
-
-            <p2 class="Email">
-                Email <br><input type="email">
-            </p2>
-
-                <p3>
-                    <br>Senha      <button class="Esquece_senha">Esqueceu sua senha?</button><br>
-                    <input class="Senha" type="password">
-                </p3>
-                <br><button class="entrar">
-                    Entrar
-                </button>
+        <!--Ficou bem baguncado mas não sei como organizar muito melhor que isso-->
+        <div>
+        <script src="Entrega2Fluxo.js"></script>
+        <form class="AreaLogin" id="loginForm" onsubmit="return login()">
+           <b class="emailsenha"> Email </b> <br>
+            <input id='email' type="email" name="email" required>
+            
+            <br><b class="emailsenha">Senha </b>  &emsp;  <a href= ' ' class="Esquece_senha">Esqueceu sua senha?</a><br>
+            
+            <input id="password" type="password" name="password" required>
+            <br><input class="Lembrar" type="checkbox">Manter-se conectado</input>
+            
+            <br><button type="submit" class="submit">Entrar</button>
+        </form>
+            
             </div>
+            
             <!-- Selecao especifica das logos dos modos de -->
             <div>
-                <button class="google">
+                <button type="submit" class="google">
                     <img src="logoGoogle.png" class ="logoGoogle"> <b>Entrar com Google</b>
                 </button>
-                <button class="apple">
+                <button type="submit" class="apple">
                    <img src="logoApple.png" class=" logoApple"> <b>Entrar com apple</b.>
                 </button>
             </div>
+            
             
             <!-- Rodape da pagina contendo links uteis: -->
             <div>
                 <footer class="rodape">
                     <f4>
-                        <lu>Sobre</lu> &emsp;
-                        <lu>Central de ajuda</lu>&emsp;
-                        <lu>Termos de serviço</lu> &emsp;
-                        <lu>Política de privacidade</lu> &emsp;
-                        <lu>Acessibilidade</lu> &emsp;
-                        <lu>Politica de cookies</lu>
+                            <lu><a href="">Sobre</a> <lu> &emsp;
+                            <lu><a href="">Central de ajuda</a></lu>&emsp;
+                            <lu><a href="">Termos de serviço</a></lu> &emsp;
+                            <lu><a href="">política de privacidade</a></lu> &emsp;
+                            <lu><a href="">Acessibilidade</a></lu> &emsp;
+                            <lu><a href="">Politica de cookies</a></lu>
                     </f4>
-                
                 </footer>
-            
+                
+                
             </div>
+            <!-- uso do javascript -->
 
         </body>
+        </html>
     
