@@ -1,0 +1,130 @@
+.body {
+    margin: 0;
+    height: 100vh;
+    background: url('Foto_Fluxo.png') no-repeat center center fixed;
+    background-size: cover;
+    padding: 0;
+    backdrop-filter:blur(2px);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0.1));
+}
+.body {
+    background-color: black;
+    backdrop-filter: 30%;
+}
+
+.headline {
+    background-color: black;
+    background-size: 1800px 180px;
+    background-origin: initial ;
+    color:whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24;
+    font-weight: 500;
+    
+}
+.LegendaTitulo {
+    font-size: 32px;
+    position:relative;
+    left: 11%;
+    bottom: 32px;
+}
+.LogoFluxoTitulo {
+    src: "logoFluxo.png";
+    width: 100px;
+    position: relative;
+    left: 12%;;
+    bottom: 64%;
+}
+.LegendaTitulo2 {
+    font-size: 24px;
+    position: relative;
+    left:50%;
+    bottom: 32px;
+}
+.chamadaLogin b{
+    color:whitesmoke;
+    font-size: 300%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 13%;
+    bottom: 64%;
+}
+
+.AreaLogin {
+    position: absolute;
+    left: 60%;
+    bottom:45%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: whitesmoke;
+}
+
+.capa {
+    height: auto;
+    width: 1200px;
+    position: absolute;
+    left: -20%;
+    bottom: -5%;
+    margin: 0;
+    padding: 0;;
+}
+
+
+.entrar {
+    size: 10px ;
+}
+
+.google {
+    height: 20px;
+    width: auto;
+    position: absolute;
+    left:60%;
+    bottom: 40%;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px;
+}
+.apple {
+    height: 20px;
+    width: auto;
+    position: absolute;
+    left: 72%;
+    bottom: 40%;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    border: 5px;;
+}
+
+.logoGoogle {
+    height: 15px;
+    width: auto;
+    position: relative;
+    top:2px;
+}
+.logoApple {
+    height: 15px;
+    width: auto;
+    position: relative;
+    top: 1px;
+}
+.rodape {
+    position: absolute;
+    left: 16%;
+    bottom: 5%;
+    border-width: 100%;;
+    border-color: black;;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: whitesmoke;
+    
+}
