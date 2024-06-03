@@ -24,49 +24,49 @@
         <!-- Area onde ficam as entradas de email e senha: necessistam embelezamento -->
         <!--Ficou bem baguncado mas não sei como organizar muito melhor que isso-->
         <div>
-        <script src="Entrega2Fluxo.js"></script>
-        <form class="AreaLogin" id="loginForm" onsubmit="return login()">
-           <b class="emailsenha"> Email </b> <br>
-            <input id='email' type="email" name="email" required>
+            <form class="AreaLogin" id="loginForm" onsubmit="return login()">
+                <b class="emailsenha"> Email </b> <br>
+                <input id='email' type="email" name="email" required>
+                
+                <br><b class="emailsenha">Senha </b>  &emsp;  <a href= ' ' class="Esquece_senha">Esqueceu sua senha?</a><br>
+                
+                <input id="password" type="password" name="password" required>
+                <br><input class="Lembrar" type="checkbox">Manter-se conectado</input>
+                
+                <br><button type="submit" class="submit">Entrar</button>
+            </form>
             
-            <br><b class="emailsenha">Senha </b>  &emsp;  <a href= ' ' class="Esquece_senha">Esqueceu sua senha?</a><br>
+        </div>
+        
+        <!-- Selecao especifica das logos dos modos de -->
+        <div>
+            <button type="submit" class="google">
+                <img src="logoGoogle.png" class ="logoGoogle"> Entrar com Google
+            </button>
+            <button type="submit" class="apple">
+                <img src="logoApple.png" class=" logoApple"> Entrar com Apple
+            </button>
+        </div>
             
-            <input id="password" type="password" name="password" required>
-            <br><input class="Lembrar" type="checkbox">Manter-se conectado</input>
-            
-            <br><button type="submit" class="submit">Entrar</button>
-        </form>
-            
-            </div>
-            
-            <!-- Selecao especifica das logos dos modos de -->
-            <div>
-                <button type="submit" class="google">
-                    <img src="logoGoogle.png" class ="logoGoogle"> Entrar com Google
-                </button>
-                <button type="submit" class="apple">
-                   <img src="logoApple.png" class=" logoApple"> Entrar com apple
-                </button>
-            </div>
-            
-            
-            <!-- Rodape da pagina contendo links uteis: -->
-            <div>
-                <footer class="rodape">
-                    <f4>
-                            <lu><a href="">Sobre</a> <lu> &emsp;
-                            <lu><a href="">Central de ajuda</a></lu>&emsp;
-                            <lu><a href="">Termos de serviço</a></lu> &emsp;
-                            <lu><a href="">política de privacidade</a></lu> &emsp;
-                            <lu><a href="">Acessibilidade</a></lu> &emsp;
-                            <lu><a href="">Politica de cookies</a></lu>
+        
+        <!-- Rodape da pagina contendo links uteis: -->
+        <div>
+            <footer class="rodape">
+                <f4>
+                    <lu><a href="">Sobre</a> <lu> &emsp;
+                        <lu><a href="">Central de ajuda</a></lu>&emsp;
+                        <lu><a href="">Termos de serviço</a></lu> &emsp;
+                        <lu><a href="">política de privacidade</a></lu> &emsp;
+                        <lu><a href="">Acessibilidade</a></lu> &emsp;
+                        <lu><a href="">Politica de cookies</a></lu>
                     </f4>
                 </footer>
                 
                 
             </div>
             <!-- uso do javascript -->
-
+            <script src="Entrega2Fluxo.js"></script>
+            
         </body>
         </html>
-    
+        
