@@ -15,37 +15,38 @@
 
                 </header> 
         <!-- Area da chamada 'Faca login'    -->
-        <div>   
-            <p1 class="chamadaLogin">
+        <div class="chamadaLogin">   
+
                <b> Faça seu login! </b> <br><img class = 'capa'  src="Pré-Capa.png">
-            </p1>
+            
         </div>
         
-        <!-- Area onde ficam as entradas de email e senha-->
+        <!-- Area onde ficam as entradas de email e senha:-->
         <div>
             <form class="AreaLogin" id="loginForm" onsubmit="return login()">
                 <b class="emailsenha"> Email </b> <br>
                 <input id='email' type="email" name="email" required>
                 
-                <br><b class="emailsenha">Senha </b>  &emsp;  <a href= ' ' class="Esquece_senha">Esqueceu sua senha?</a><br>
+                <br><b class="emailsenha">Senha </b> <a href= ' ' class="Esquece_senha">Esqueceu sua senha?</a><br>
                 
                 <input id="password" type="password" name="password" required>
                 <br><input class="Lembrar" type="checkbox">Manter-se conectado</input>
                 
                 <br><button type="submit" class="submit">Entrar</button>
+                
+                
+                <button type="submit" class="google">
+                    <img src="logoGoogle.png" class ="logoGoogle"> Entrar com Google
+                </button>
+                <button type="submit" class="apple">
+                    <img src="logoApple.png" class=" logoApple"> Entrar com Apple
+                </button>
+            
             </form>
             
         </div>
         
-        <!-- Selecao especifica das logos dos modos de -->
-        <div>
-            <button type="submit" class="google">
-                <img src="logoGoogle.png" class ="logoGoogle"> Entrar com Google
-            </button>
-            <button type="submit" class="apple">
-                <img src="logoApple.png" class=" logoApple"> Entrar com Apple
-            </button>
-        </div>
+
             
         
         <!-- Rodape da pagina contendo links uteis: -->
